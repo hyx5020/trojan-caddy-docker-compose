@@ -1,10 +1,6 @@
 FROM gtary/trojan:latest
 
-ADD file:0c4555f363c2672e350001f1293e689875a3760afe7b3f9146886afe67121cba in / 
-
 CMD ["/bin/sh"]
- 
-COPY dir:4b9a648a91edf54c636e578d98848c08cd4f4592fe6198b816cf1dae22b4c41d in trojan 
 
 RUN apk add --no-cache --virtual .build-deps         \
   build-base         \
