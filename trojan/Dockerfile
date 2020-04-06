@@ -1,4 +1,4 @@
-From gtary/trojan:latest
+FROM gtary/trojan:latest
 
 ADD file:0c4555f363c2672e350001f1293e689875a3760afe7b3f9146886afe67121cba in / 
 
